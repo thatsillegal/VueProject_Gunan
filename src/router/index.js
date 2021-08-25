@@ -6,6 +6,7 @@ import MyProjects from '../views/MyProjects.vue'
 import Team from '../views/Team.vue'
 import ThreeProject1 from '../views/ThreeProject1.vue'
 import ThreeProjectExample from '../views/ThreeProjectExample.vue'
+import building01 from '../views/building01.vue'
 
 Vue.use(VueRouter)
 
@@ -24,6 +25,11 @@ const routes = [
     path: '/threeprojects/example',
     name: 'ThreeProject_Example',
     component: ThreeProjectExample
+  },
+  {
+    path: '/threeprojects/building01',
+    name: 'building01',
+    component: building01
   },
   {
     path: '/dashboard',
