@@ -1,6 +1,6 @@
 <template>
   <div class="about">
-    <h1 class="subheading grey--text">This is an about page</h1>
+    <h1 class="ma-8 subheading grey--text">关于我们</h1>
     <labaaafooter/>
   </div>
 </template>

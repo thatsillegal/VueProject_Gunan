@@ -40,10 +40,10 @@ export default {
         return{
             drawer: false,
             links:[
-                {icon:'mdi-home',text:'Home',route:'/'},
-                {icon:'mdi-view-dashboard-variant',text:'Dashboard',route:'/dashboard'},
-                {icon:'mdi-folder-multiple',text:'MyProjects',route:'/myprojects'},
-                {icon:'mdi-account-multiple',text:'Team',route:'/team'},
+                // {icon:'mdi-home',text:'Home',route:'/home'},
+                // {icon:'mdi-view-dashboard-variant',text:'Dashboard',route:'/dashboard'},
+                {icon:'mdi-folder-multiple',text:'Projects',route:'/myprojects'},
+                // {icon:'mdi-account-multiple',text:'Team',route:'/team'},
                 {icon:'mdi-information',text:'About',route:'/about'}
             ]
         }

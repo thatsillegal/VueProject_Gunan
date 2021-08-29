@@ -2,28 +2,7 @@
   <div>
       <div class="threeproject" id="canvas"></div>
 
-      <v-card
-      class="padless fixedcard"
-      >
-        <v-row
-          padless
-          align="center"
-          justify="center"
-        >
-          <v-btn-toggle
-            padless
-            v-model="toggle_exclusive"
-            rounded
-          >
-            <v-btn @click="refreshline">
-              Line模型
-            </v-btn>
-            <v-btn @click="refreshBuilding">
-              古南街模型
-            </v-btn>
-          </v-btn-toggle>
-        </v-row>
-    </v-card>
+      
 
       <v-card
       class="mx-auto popupcard"
@@ -65,10 +44,12 @@
           <v-divider></v-divider>
 
           <v-card-text>
-            练泥池茶室位于古南街南段，原状是一幢坍塌的三开间住
-宅，以支巷与外部相接，它和对面房子之间留有开阔的空
-地。原址上大部分建筑已经损毁，仅在相邻房屋的外墙上
-留下屋顶折线的痕迹。
+            项目地点：江苏省宜兴市丁蜀镇古南街
+设计时间：2017-04 至 2018-10
+竣工时间：2020-11
+规模：建筑 42 ㎡，景观 46 ㎡
+设计团队：沈旸、俞海洋、沈华、
+ 范燕亮、李康
 
           </v-card-text>
         </div>
@@ -184,17 +165,17 @@ export default {
 
       //camera
       this.camera = new THREE.PerspectiveCamera(45,1,1,10000);//?ratio?
-      this.camera.position.set(0,0,1000);//?
+      this.camera.position.set(-1000,500,-1000);//?
       this.scene.add(this.camera)
 
 
       //初始化 Light 光源
       // let ambientlight = new THREE.AmbientLight(0x404040);
-      let sunlight = new THREE.DirectionalLight(0x909090);
-      sunlight.position.set(1,-1,1.5)
-      sunlight.castShadow = true
+      // let sunlight = new THREE.DirectionalLight(0x909090);
+      // sunlight.position.set(0,1,1)
+      // sunlight.castShadow = true
       // this.scene.add(ambientlight)
-      this.scene.add(sunlight)
+      // this.scene.add(sunlight)
 
       //Helper
       let AxesHelper = new THREE.AxesHelper(1000)
@@ -214,7 +195,8 @@ export default {
        */
       //点光源
       var point = new THREE.PointLight(0xffffff);
-      point.position.set(-700, -600, 120); //点光源位置
+                      //  red   green  blue 
+      point.position.set(-500, 1000, -500); //点光源位置
       this.scene.add(point); //点光源添加到场景中
       //环境光
       var ambient = new THREE.AmbientLight(0x444444);
@@ -260,7 +242,7 @@ export default {
       var mesh;
       cloader.load("/model/bui01/111.dae", function(result){
         mesh = result.scene.children[0].clone();
-        // mesh.translateX(-700).translateY(-450).rotateX(Math.PI/2)
+        mesh.rotateX(-Math.PI/2).rotateZ(-Math.PI/2).translateX(-180);
         scope.scene.add(mesh);
       })
       

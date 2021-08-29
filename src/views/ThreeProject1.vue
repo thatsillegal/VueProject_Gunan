@@ -2,7 +2,6 @@
   <div>
       <div class="threeproject" id="canvas"></div>
 
-
     <v-card class="mx-auto popupcard">
       <v-btn
           x-small
@@ -14,21 +13,23 @@
 
       <v-card
       width="250"
-    >
-
-    
-    
+      >
       <v-card-title>
-        {{houseName}}号房
+        #{{houseName}}
       </v-card-title>
 
-      <v-card-subtitle>
+      <p class="ma-0 pl-5">
         层数：{{floor}} 层
-      </v-card-subtitle>
+      </p>
+
+      <p class="ma-0 pl-5 ">
+        图层：{{layername}} 
+      </p>
 
       <v-card-actions>
         <v-btn
-           to="/threeprojects/building01"
+          :disabled = islinkOn
+          :to= houselink
           color="orange lighten-2"
           text
         >
@@ -40,8 +41,18 @@
     </v-card>
     </v-card>
 
+    <v-card id="control-panel" width="250">
+      <v-card-title>控制台</v-card-title>
+      <v-container fluid >
+        <v-row class="pl-3 pb-3">
+          <v-checkbox hide-details label="活力图" :input-value="hotmapOn" @click="isHotmapOn()"></v-checkbox>
+        </v-row>
+      </v-container>
+
+    </v-card>
+
  <v-card
-      id="controlpanel"
+      id="layers-panel"
       width="250"
     >
     <v-card-title>
@@ -67,16 +78,22 @@
       </v-expansion-panel>
     </v-expansion-panels>
  </v-card>
+
+ <v-card>
+
+ </v-card>
   </div>
 </template>
 
 <script>
 import * as THREE from 'three';
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
-import buildingjson from '@/assets/buildings2.json';
+import buildingjson from '@/assets/buildings0829.json';
 import pointsjson from '@/assets/points.json'
-import {Building} from'@/js/Building.js'
+import _hotimg from '@/assets/hot2.jpg'
+import {Building, PublicSpace} from'@/js/Building.js'
 import {OBJLoader} from 'three/examples/jsm/loaders/OBJLoader'
+// import {TextureLoader} from 'three/examples/jsm/loaders/TxtureLoader'
 // import {ColladaLoader} from 'three/examples/jsm/loaders/ColladaLoader'
 // import Stats from "three/examples/jsm/libs/stats.module.js";
 
@@ -89,19 +106,27 @@ export default {
       buildingsInfo:buildingjson,
       pointsInfo:pointsjson,
 
+      //img
+      hotimg: _hotimg,
+
       //template
       toggle_exclusive: undefined,
       show: false,
       floor:0,
       houseName:'No building selected',
 
+      layername:null,
+      hotmapOn:false,
+      houselink:"",
+      islinkOn:true,
+
 
       // layeron:[],
       // highlighton:[],
 
-      defaultMaterial: new THREE.MeshLambertMaterial({color:0xffffff}),
+      defaultColor: new THREE.Color().set(0xffffff),
       lineMaterial:new THREE.LineBasicMaterial({color:0x0000ff}), 
-      hilightMaterial : new THREE.MeshLambertMaterial({color:0xEEB422}) ,
+      // hilightColor : [],
       
       //THREE
       renderer: null, //这个必须放这里，不然canvas尺寸计算会出问题
@@ -132,19 +157,26 @@ export default {
 
       groups:null, //事实证明，在这里面初始化 比如写成 groups:[] 屁用没有，还得在后面初始化
       allbuildings: null,
+
+      hotimg_pl:null
     }
   },
 
   mounted() {
     this.init();
-
     let that = this;
     window.addEventListener("resize", onWindowResize, false);
     function onWindowResize() {
       const width  = document.querySelector("#canvas").clientWidth;
-      const height = window.innerHeight -document.querySelector("#app-bar").clientHeight;
-      that.renderer.setSize(width, height, false);
+      const height = window.innerHeight - document.querySelector("#app-bar").clientHeight;
+
+      //  console.log("innerheight :"+window.innerHeight)
+      // console.log("canvas height:"+height)
+      that.renderer.setSize(width, height, true);   //把这个改成true 就可以了！ 不要问我为什么
+
+      // console.log(that.renderer.getSize())
       const canvas = that.renderer.domElement;
+
       that.camera.aspect = canvas.clientWidth / canvas.clientHeight;
       that.camera.updateProjectionMatrix();
     }
@@ -152,6 +184,14 @@ export default {
   },
 
   methods:{
+    isHotmapOn(){
+      this.hotmapOn = !this.hotmapOn
+      if(this.hotmapOn){
+        this.scene.add(this.hotimg_pl)
+      }else{
+        this.scene.remove(this.hotimg_pl)
+      }
+    },
 
     isHighlightLayer(order){
       this.layers[order].highlight = !this.layers[order].highlight
@@ -159,13 +199,14 @@ export default {
         this.groups[order].traverse((obj)=>{
           //Executes the callback on "this"(which is a group , SO , NO!!!) object and all descendants.
           if(obj.type === "Mesh"){
-            obj.material.copy(this.hilightMaterial)
+            // obj.material.copy(this.hilightMaterial)
+            obj.material.color.set(this.layers[order].color)
           }
         })
       }else{
         this.groups[order].traverse((obj)=>{
           if(obj.type === "Mesh"){
-            obj.material.copy(this.defaultMaterial)
+            obj.material.color.set(this.defaultColor)
           }
         })
       }
@@ -190,29 +231,7 @@ export default {
       console.log(this.layers[order].layername+"是否开启: "+this.layers[order].on)
     },
 
-    refreshBuilding(){
-     
-    },
 
-    refreshline(){
-      this.scene.remove(this.line) //这个函数非常重要，不然他不知道没有删除之前的对象
-      this.scene.remove(this.group)
-      this.scene.remove(this.plane)
-      let points=[]
-
-      let list = this.pointsInfo.values
-      let n = list.length/3;
-      for(let i=0;i<n;i++){
-          let x= list[i*3]
-          let y= list[i*3+1]
-          let z= list[i*3+2]
-          points.push(new THREE.Vector3(x,y,z))
-      }
-      points.push(points[0])
-      let geometry = new THREE.BufferGeometry().setFromPoints(points);
-      this.line = new THREE.Line(geometry,this.lineMaterial);
-      this.scene.add(this.line)
-    },
     init(){
       //创建一个that给回调函数用
       let that = this 
@@ -355,6 +374,16 @@ export default {
       //  console.log(obj)
       })  
 
+     
+
+   //添加活力图
+        let imgloader = new THREE.TextureLoader();
+        let hottexture = imgloader.load(this.hotimg)
+        let hotmaterial = new THREE.MeshBasicMaterial({map:hottexture,transparent:true,opacity:0.8})
+        let hotimg_geo = new THREE.PlaneGeometry(1000,1000,1,1)
+        this.hotimg_pl = new THREE.Mesh(hotimg_geo,hotmaterial)
+        this.hotimg_pl.translateZ(0.5).translateY(50)
+
 
 
       // loader.load('/static/rhino.obj',
@@ -385,12 +414,14 @@ export default {
       this.groups = [] //必须在这里初始化
 
       let _layernames = this.buildingsInfo[0]
-      for(let i=0;i<_layernames.length;i++){
+      let len = _layernames.length
+      for(let i=0;i<len;i++){
         let layertemp ={}
         layertemp.layername = _layernames[i]
         layertemp.on  = true
-        layertemp.highlight = false
+        layertemp.highlight = true
         layertemp.order = i
+        layertemp.color = new THREE.Color().setHSL(i/len,0.2,0.5) //我是想减去0图层和text图层，所以-2
 
         // this.layernames.push(_layernames[i])
         // this.layeron.push(true)
@@ -400,25 +431,41 @@ export default {
 
         this.groups.push(new THREE.Group())
       }
+      
 
       console.log(this.layers)
 
       let data =this.buildingsInfo[1]
 
       for(let i=0;i<data.length;i++){
+
+
         let dots = data[i].dots;
         let floor = data[i].floor;
+        let link = data[i].link;
+        let housename = data[i].housename;
+
         let layername = data[i].layer;
-        if(floor == 0) floor =1;
-
-        let building = new Building(dots,floor,layername,i)
-
-        building.mesh.castShadow = true
-
-        for(let j=0;j<this.layers.length;j++){
-          if(this.layers[j].layername == layername){
-            this.groups[j].add(building.mesh)
-            break;
+        if(layername != "Polygon_publicspace"){
+          
+          let building = new Building(dots,floor,link,layername,housename,i)
+          building.mesh.castShadow = true
+          for(let j=0;j<this.layers.length;j++){
+            if(this.layers[j].layername == layername){
+              building.mesh.material.color.set(this.layers[j].color)
+              this.groups[j].add(building.mesh)
+              break;
+            }
+          }
+        }else{
+          let publicspace = new PublicSpace(dots,floor,link,layername,i)
+          // publicspace.mesh.castShadow = true
+          for(let j=0;j<this.layers.length;j++){
+            if(this.layers[j].layername == layername){
+              publicspace.mesh.material.color.set(this.layers[j].color)
+              this.groups[j].add(publicspace.mesh)
+              break;
+            }
           }
         }
       }
@@ -445,11 +492,12 @@ export default {
       this.raycaster = new THREE.Raycaster();
       this.mouse = new THREE.Vector2();
       function onMousemove(event){
+        console.log("rectheight:" + event.clientY)
         event.preventDefault();
         let mousepos = getMousePos(canvas,event);
         that.mouse.setX(mousepos.x*2-1);
         that.mouse.setY(-mousepos.y*2+1); //这个地方没有转换正负号把我坑惨了
-        // console.log(that.mouse.x+","+that.mouse.y)
+        console.log(that.mouse.x+","+that.mouse.y+","+mousepos.y)
 
         that.raycaster.setFromCamera(that.mouse,that.camera)
 
@@ -474,6 +522,7 @@ export default {
       }
       function getMousePos(canvas,e){
         let rect = canvas.getBoundingClientRect()
+        
         return{
           x:(e.clientX-rect.left)/rect.width,
           y:(e.clientY-rect.top)/rect.height
@@ -485,17 +534,33 @@ export default {
       canvas.addEventListener('click',popInfo);
       function popInfo(){
           if(that.INTERSECTED){
-              if(that.INTERSECTED.floor){
                   that.floor = that.INTERSECTED.floor
-                  that.houseName = that.INTERSECTED.key
-              }else{
-                  that.floor = 'No floor info detected.'
-              }
+                  that.layername = that.INTERSECTED.layer
+                  that.houseName = that.INTERSECTED.housename
+                  console.log(that.INTERSECTED.housename)
+
+
+                  // if(that.INTERSECTED.housename == "null"){
+                  //   that.houseName = that.INTERSECTED.key
+              
+                  // }else{
+                  //   that.houseName = that.INTERSECTED.housename 
+                  // }
+
+                  if(that.INTERSECTED.link == "null"){
+                    that.houselink = ""
+                    that.islinkOn = true
+                  }else{
+                  that.houselink = that.INTERSECTED.link
+                  that.islinkOn = false
+                  }
+              
             
           }else{
               // console.log('No house selected.')
           }
       }
+      
 
       this.animate();
     },
@@ -506,6 +571,7 @@ export default {
         this.renderer.render(this.scene, this.camera);
     },
 
+    
   }
 }
 </script>
@@ -519,12 +585,18 @@ export default {
 .popupcard{
   position:absolute;
   right:10px;
-  top:100px
+  top:10px
 }
 
-#controlpanel{
+#control-panel{
   position:absolute;
   right:10px;
-  top:300px
+  top:190px
+}
+
+#layers-panel{
+  position:absolute;
+  right:10px;
+  top:320px
 }
 </style>
