@@ -1,6 +1,6 @@
 <template>
   <div class="myprojects">
-    <h1 class="ma-8 subheading grey--text">项目展示</h1>
+    <h1 class="ma-8 subheading grey--text">项目</h1>
       <v-container class="my-15 mx-5">
         <v-layout row>
           
@@ -47,8 +47,9 @@ export default {
   data(){
     return{
       items:[
-        {title:"古南街",subtitle:"村镇社区空间",pic:"/gunanjie.png",link:"/threeprojects/gunanjie"},
-        {title:"丁蜀镇某地块",subtitle:"丁蜀镇某地块",pic:"/gunanjie.png",link:"/threeprojects/example"},
+        {title:"古南街",subtitle:"村镇社区空间",pic:"/model/gunanjie/cover.jpg",link:"/threeprojects/gunanjie"},
+        {title:"丁蜀镇A地块",subtitle:"丁蜀镇A地块",pic:"/model/placeA/cover.png",link:"/threeprojects/example"},
+        {title:"公共设施布局优化",subtitle:"马鞍山当涂县",pic:"/model/jinze/cover.png",link:"/threeprojects/jinze"},
         {title:"练泥池茶室",subtitle:"对“水院”意象的援引",pic:"/model/bui01/bui01.jpg",link:"/threeprojects/building01"},
         {title:"水龙宫便民设施",subtitle:"弥补传统街道缺少的公共休闲区域",pic:"/model/bui02/bui02.jpg",link:"/threeprojects/building02"},
         {title:"张家老宅改造",subtitle:"建筑的联体 - 共生结构",pic:"/model/bui03/bui03.png",link:"/threeprojects/building03"},

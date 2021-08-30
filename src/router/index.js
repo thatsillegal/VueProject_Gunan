@@ -14,6 +14,7 @@ import building05 from '../views/building05.vue'
 import building06 from '../views/building06.vue'
 import building07 from '../views/building07.vue'
 import building08 from '../views/building08.vue'
+import jinze from '../views/jinze.vue'
 
 Vue.use(VueRouter)
 
@@ -37,6 +38,11 @@ const routes = [
     path: '/threeprojects/example',
     name: 'ThreeProject_Example',
     component: ThreeProjectExample
+  },
+  {
+    path: '/threeprojects/jinze',
+    name: 'jinze',
+    component: jinze
   },
   {
     path: '/threeprojects/building01',

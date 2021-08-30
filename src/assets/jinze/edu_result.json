@@ -1,0 +1,1624 @@
+{
+  "displayFieldName": "",
+  "fieldAliases": {
+    "OBJECTID": "OBJECTID",
+    "备选设施点序号": "备选设施点序号",
+    "纬度": "纬度",
+    "经度": "经度",
+    "土地权重": "土地权重",
+    "Field5": "Field5",
+    "Field6": "Field6",
+    "Field7": "Field7",
+    "Field8": "Field8",
+    "Field9": "Field9",
+    "Field10": "Field10",
+    "Field11": "Field11",
+    "Field12": "Field12"
+  },
+  "geometryType": "esriGeometryPoint",
+  "spatialReference": { "wkt": "GEOGCS[\"CGCS_2000\",DATUM[\"D_2000\",SPHEROID[\"S_2000\",6378137.0,298.2572221010041]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]]" },
+  "fields": [
+    {
+      "name": "OBJECTID",
+      "type": "esriFieldTypeOID",
+      "alias": "OBJECTID"
+    },
+    {
+      "name": "备选设施点序号",
+      "type": "esriFieldTypeInteger",
+      "alias": "备选设施点序号"
+    },
+    {
+      "name": "纬度",
+      "type": "esriFieldTypeDouble",
+      "alias": "纬度"
+    },
+    {
+      "name": "经度",
+      "type": "esriFieldTypeDouble",
+      "alias": "经度"
+    },
+    {
+      "name": "土地权重",
+      "type": "esriFieldTypeInteger",
+      "alias": "土地权重"
+    },
+    {
+      "name": "Field5",
+      "type": "esriFieldTypeInteger",
+      "alias": "Field5"
+    },
+    {
+      "name": "Field6",
+      "type": "esriFieldTypeDouble",
+      "alias": "Field6"
+    },
+    {
+      "name": "Field7",
+      "type": "esriFieldTypeDouble",
+      "alias": "Field7"
+    },
+    {
+      "name": "Field8",
+      "type": "esriFieldTypeString",
+      "alias": "Field8",
+      "length": 2147483647
+    },
+    {
+      "name": "Field9",
+      "type": "esriFieldTypeDouble",
+      "alias": "Field9"
+    },
+    {
+      "name": "Field10",
+      "type": "esriFieldTypeDouble",
+      "alias": "Field10"
+    },
+    {
+      "name": "Field11",
+      "type": "esriFieldTypeString",
+      "alias": "Field11",
+      "length": 2147483647
+    },
+    {
+      "name": "Field12",
+      "type": "esriFieldTypeInteger",
+      "alias": "Field12"
+    }
+  ],
+  "features": [
+    {
+      "attributes": {
+        "OBJECTID": 7,
+        "备选设施点序号": 7,
+        "纬度": 118.788145,
+        "经度": 31.44031227,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 253715.1654,
+        "Field7": 3683.120058,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.7881450000001,
+        "y": 31.440312270000049
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 30,
+        "备选设施点序号": 30,
+        "纬度": 118.6839638,
+        "经度": 31.38991111,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 142189.84049999999,
+        "Field7": 4211.7735620000003,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.68396380000001,
+        "y": 31.389911110000071
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 32,
+        "备选设施点序号": 32,
+        "纬度": 118.6901987,
+        "经度": 31.410980510000002,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 34858.390460000002,
+        "Field7": 840.79463039999996,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.69019870000011,
+        "y": 31.410980510000059
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 40,
+        "备选设施点序号": 40,
+        "纬度": 118.6583394,
+        "经度": 31.460091049999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 47366.297859999999,
+        "Field7": 1461.539139,
+        "Field8": "平心小学",
+        "Field9": 118.6585783,
+        "Field10": 31.461045219999999,
+        "Field11": "安徽省马鞍山市当涂县平心路附近",
+        "Field12": 2
+      },
+      "geometry": {
+        "x": 118.65833940000005,
+        "y": 31.460091050000074
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 44,
+        "备选设施点序号": 44,
+        "纬度": 118.6313431,
+        "经度": 31.392049400000001,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 76876.983840000001,
+        "Field7": 3388.6861819999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.63134310000009,
+        "y": 31.392049400000076
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 45,
+        "备选设施点序号": 45,
+        "纬度": 118.6279589,
+        "经度": 31.393564489999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 6939.484117,
+        "Field7": 517.93583349999994,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.62795890000007,
+        "y": 31.393564490000074
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 47,
+        "备选设施点序号": 47,
+        "纬度": 118.63302760000001,
+        "经度": 31.382010820000001,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 12964.693310000001,
+        "Field7": 581.70862950000003,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.6330276000001,
+        "y": 31.382010820000062
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 51,
+        "备选设施点序号": 51,
+        "纬度": 118.6568862,
+        "经度": 31.375936110000001,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 30705.33524,
+        "Field7": 1184.7888559999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.65688620000003,
+        "y": 31.375936110000055
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 58,
+        "备选设施点序号": 58,
+        "纬度": 118.6367755,
+        "经度": 31.308439570000001,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 52480.04881,
+        "Field7": 2798.680527,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.63677550000011,
+        "y": 31.308439570000075
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 61,
+        "备选设施点序号": 61,
+        "纬度": 118.6374611,
+        "经度": 31.31034756,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 8852.0700639999995,
+        "Field7": 683.48190469999997,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.63746110000011,
+        "y": 31.310347560000025
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 64,
+        "备选设施点序号": 64,
+        "纬度": 118.60111670000001,
+        "经度": 31.325572680000001,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 69896.095820000002,
+        "Field7": 1786.014774,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.60111670000003,
+        "y": 31.32557268000005
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 66,
+        "备选设施点序号": 66,
+        "纬度": 118.5963027,
+        "经度": 31.33419151,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 23007.39602,
+        "Field7": 1057.1841899999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.59630270000002,
+        "y": 31.334191510000039
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 75,
+        "备选设施点序号": 109,
+        "纬度": 118.60033009999999,
+        "经度": 31.533999430000001,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 110523.3162,
+        "Field7": 1334.8352339999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.60033010000006,
+        "y": 31.533999430000051
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 80,
+        "备选设施点序号": 114,
+        "纬度": 118.5581608,
+        "经度": 31.499938499999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 152845.91500000001,
+        "Field7": 2951.9734360000002,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.55816080000011,
+        "y": 31.499938500000042
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 84,
+        "备选设施点序号": 118,
+        "纬度": 118.5297198,
+        "经度": 31.437979259999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 14846.086310000001,
+        "Field7": 991.53602000000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.52971980000007,
+        "y": 31.437979260000077
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 93,
+        "备选设施点序号": 127,
+        "纬度": 118.5337976,
+        "经度": 31.39273403,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 68881.564700000003,
+        "Field7": 3138.7386390000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.53379760000007,
+        "y": 31.392734030000042
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 107,
+        "备选设施点序号": 141,
+        "纬度": 118.5634807,
+        "经度": 31.45713473,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 31658.407080000001,
+        "Field7": 1100.8135589999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.56348070000001,
+        "y": 31.457134730000064
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 108,
+        "备选设施点序号": 142,
+        "纬度": 118.4264903,
+        "经度": 31.579944489999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 74490.837759999995,
+        "Field7": 2096.620876,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.42649030000007,
+        "y": 31.579944490000059
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 124,
+        "备选设施点序号": 158,
+        "纬度": 118.5913254,
+        "经度": 31.303749920000001,
+        "土地权重": 1,
+        "Field5": 2,
+        "Field6": 168236.72870000001,
+        "Field7": 1849.408602,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.59132540000007,
+        "y": 31.30374992000003
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 127,
+        "备选设施点序号": 161,
+        "纬度": 118.5994207,
+        "经度": 31.310235039999998,
+        "土地权重": 1,
+        "Field5": 2,
+        "Field6": 22134.72177,
+        "Field7": 662.50326270000005,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.59942070000011,
+        "y": 31.310235040000066
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 128,
+        "备选设施点序号": 162,
+        "纬度": 118.5904269,
+        "经度": 31.298184030000002,
+        "土地权重": 1,
+        "Field5": 2,
+        "Field6": 114973.3582,
+        "Field7": 1521.4702130000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.59042690000001,
+        "y": 31.298184030000073
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 144,
+        "备选设施点序号": 178,
+        "纬度": 118.5096939,
+        "经度": 31.526763930000001,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 79180.869059999997,
+        "Field7": 1192.011745,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.50969390000012,
+        "y": 31.526763930000072
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 151,
+        "备选设施点序号": 185,
+        "纬度": 118.4387038,
+        "经度": 31.53709392,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 103493.0079,
+        "Field7": 1577.5551250000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.4387038000001,
+        "y": 31.537093920000075
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 164,
+        "备选设施点序号": 198,
+        "纬度": 118.4508431,
+        "经度": 31.516958379999998,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 6877.883707,
+        "Field7": 367.58574420000002,
+        "Field8": "新桥中心学校",
+        "Field9": 118.45016459999999,
+        "Field10": 31.51701121,
+        "Field11": "安徽省马鞍山市当涂县太白镇永兴中路新桥中心学校",
+        "Field12": 3
+      },
+      "geometry": {
+        "x": 118.45084310000004,
+        "y": 31.516958380000062
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 201,
+        "备选设施点序号": 235,
+        "纬度": 118.48419680000001,
+        "经度": 31.572710740000002,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 23838.97307,
+        "Field7": 614.09784990000003,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.48419680000006,
+        "y": 31.572710740000048
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 206,
+        "备选设施点序号": 240,
+        "纬度": 118.50878299999999,
+        "经度": 31.563129480000001,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 17739.70148,
+        "Field7": 512.37193100000002,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.50878300000011,
+        "y": 31.563129480000043
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 226,
+        "备选设施点序号": 260,
+        "纬度": 118.5356151,
+        "经度": 31.55064402,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 62681.608229999998,
+        "Field7": 1397.2026800000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.53561510000009,
+        "y": 31.55064402000005
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 238,
+        "备选设施点序号": 272,
+        "纬度": 118.5158139,
+        "经度": 31.557535569999999,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 8690.8465290000004,
+        "Field7": 414.68133349999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.51581390000001,
+        "y": 31.557535570000027
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 303,
+        "备选设施点序号": 500,
+        "纬度": 118.46823759999999,
+        "经度": 31.536771009999999,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 77280.882540000006,
+        "Field7": 1157.6045750000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.46823760000007,
+        "y": 31.536771010000052
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 354,
+        "备选设施点序号": 551,
+        "纬度": 118.488933,
+        "经度": 31.588023960000001,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 30028.196739999999,
+        "Field7": 971.17360280000003,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.48893300000009,
+        "y": 31.588023960000044
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 365,
+        "备选设施点序号": 562,
+        "纬度": 118.4866564,
+        "经度": 31.581068599999998,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 18554.795190000001,
+        "Field7": 612.34519820000003,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.48665640000002,
+        "y": 31.581068600000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 378,
+        "备选设施点序号": 77,
+        "纬度": 118.60436679999999,
+        "经度": 31.41064768,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 93445.524009999994,
+        "Field7": 1213.270853,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.60436680000009,
+        "y": 31.410647680000068
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 383,
+        "备选设施点序号": 82,
+        "纬度": 118.63281379999999,
+        "经度": 31.444615249999998,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 35920.135600000001,
+        "Field7": 2178.9508179999998,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.63281380000001,
+        "y": 31.444615250000027
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 390,
+        "备选设施点序号": 89,
+        "纬度": 118.55276859999999,
+        "经度": 31.499033449999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 17939.44124,
+        "Field7": 901.84454670000002,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.55276860000004,
+        "y": 31.49903345000007
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 392,
+        "备选设施点序号": 91,
+        "纬度": 118.53543980000001,
+        "经度": 31.521773939999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 210780.01999999999,
+        "Field7": 2479.6007319999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.53543980000006,
+        "y": 31.52177394000006
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 393,
+        "备选设施点序号": 92,
+        "纬度": 118.535297,
+        "经度": 31.521835200000002,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 80055.272970000005,
+        "Field7": 1702.5854440000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.53529700000001,
+        "y": 31.521835200000055
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 402,
+        "备选设施点序号": 101,
+        "纬度": 118.54924699999999,
+        "经度": 31.474642299999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 6268.066511,
+        "Field7": 336.76214060000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.54924700000004,
+        "y": 31.474642300000028
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 405,
+        "备选设施点序号": 308,
+        "纬度": 118.5999413,
+        "经度": 31.58296425,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 55201.400540000002,
+        "Field7": 1235.5899460000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.59994130000007,
+        "y": 31.582964250000032
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 409,
+        "备选设施点序号": 312,
+        "纬度": 118.46257540000001,
+        "经度": 31.527947950000001,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 206830.66149999999,
+        "Field7": 1867.415651,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.46257540000011,
+        "y": 31.527947950000055
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 420,
+        "备选设施点序号": 323,
+        "纬度": 118.4810114,
+        "经度": 31.553453659999999,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 5744.9071020000001,
+        "Field7": 295.48911149999998,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.48101140000006,
+        "y": 31.553453660000059
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 526,
+        "备选设施点序号": 429,
+        "纬度": 118.50108400000001,
+        "经度": 31.52612208,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 33901.570379999997,
+        "Field7": 818.63982380000004,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.50108400000011,
+        "y": 31.52612208000005
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 538,
+        "备选设施点序号": 441,
+        "纬度": 118.481904,
+        "经度": 31.564588130000001,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 20573.386269999999,
+        "Field7": 578.89486509999995,
+        "Field8": "超才二幼",
+        "Field9": 118.4816501,
+        "Field10": 31.56369363,
+        "Field11": "安徽省马鞍山市当涂县姑孰路455",
+        "Field12": 1
+      },
+      "geometry": {
+        "x": 118.4819040000001,
+        "y": 31.564588130000061
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 546,
+        "备选设施点序号": 449,
+        "纬度": 118.49426579999999,
+        "经度": 31.563718659999999,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 44533.045230000003,
+        "Field7": 830.28509129999998,
+        "Field8": "大拇指幼儿园",
+        "Field9": 118.49314149999999,
+        "Field10": 31.5637382,
+        "Field11": "马鞍山市当涂县行春中路与青莲中路交叉路口往南约100米(山水名筑西侧)",
+        "Field12": 1
+      },
+      "geometry": {
+        "x": 118.49426580000011,
+        "y": 31.563718660000063
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 573,
+        "备选设施点序号": 738,
+        "纬度": 118.4605809,
+        "经度": 31.441801940000001,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "当涂县年陡初级中学",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.46058090000008,
+        "y": 31.441801940000062
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 574,
+        "备选设施点序号": 739,
+        "纬度": 118.44805239999999,
+        "经度": 31.517948780000001,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "新桥初级中学",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.44805240000005,
+        "y": 31.51794878000004
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 585,
+        "备选设施点序号": 750,
+        "纬度": 118.59872470000001,
+        "经度": 31.43885744,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "石桥中学",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.59872470000005,
+        "y": 31.438857440000049
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 588,
+        "备选设施点序号": 753,
+        "纬度": 118.4775815,
+        "经度": 31.513172430000001,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "太白镇中学",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.47758150000004,
+        "y": 31.513172430000054
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 595,
+        "备选设施点序号": 760,
+        "纬度": 118.56826580000001,
+        "经度": 31.42711327,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "黎明小学",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.56826580000006,
+        "y": 31.427113270000063
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 597,
+        "备选设施点序号": 762,
+        "纬度": 118.5877376,
+        "经度": 31.5088513,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "中法友谊第一小学",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.58773760000008,
+        "y": 31.50885130000006
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 607,
+        "备选设施点序号": 772,
+        "纬度": 118.5922267,
+        "经度": 31.521255570000001,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "黄墩小学",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.59222670000008,
+        "y": 31.521255570000051
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 611,
+        "备选设施点序号": 776,
+        "纬度": 118.4542213,
+        "经度": 31.434329529999999,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "年陡乡中心小学",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.45422130000009,
+        "y": 31.43432953000007
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 612,
+        "备选设施点序号": 777,
+        "纬度": 118.65237759999999,
+        "经度": 31.48800271,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "光明小学",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.65237760000002,
+        "y": 31.488002710000046
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 613,
+        "备选设施点序号": 778,
+        "纬度": 118.44538230000001,
+        "经度": 31.418423959999998,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "万年小学",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.44538230000001,
+        "y": 31.418423960000041
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 619,
+        "备选设施点序号": 784,
+        "纬度": 118.5521147,
+        "经度": 31.562875890000001,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "武校中学",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.55211470000006,
+        "y": 31.562875890000043
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 622,
+        "备选设施点序号": 787,
+        "纬度": 118.65422289999999,
+        "经度": 31.44461961,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "当涂县大陇乡塘桥小学",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.65422290000004,
+        "y": 31.444619610000075
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 643,
+        "备选设施点序号": 586,
+        "纬度": 118.4446351,
+        "经度": 31.506477790000002,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 119367.9019,
+        "Field7": 1464.0145669999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.44463510000003,
+        "y": 31.506477790000076
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 654,
+        "备选设施点序号": 597,
+        "纬度": 118.4968669,
+        "经度": 31.52780198,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 23823.724109999999,
+        "Field7": 621.18642,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.4968669000001,
+        "y": 31.527801980000049
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 790,
+        "备选设施点序号": 790,
+        "纬度": 118.43991990000001,
+        "经度": 31.473063830000001,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "太仓小学",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.43991990000006,
+        "y": 31.473063830000058
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 792,
+        "备选设施点序号": 792,
+        "纬度": 118.4413977,
+        "经度": 31.599618939999999,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "江心中心小学",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.44139770000004,
+        "y": 31.599618940000028
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 794,
+        "备选设施点序号": 794,
+        "纬度": 118.51452310000001,
+        "经度": 31.499165519999998,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "太白乡中心小学",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.51452310000002,
+        "y": 31.499165520000076
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 796,
+        "备选设施点序号": 796,
+        "纬度": 118.6914367,
+        "经度": 31.437023679999999,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "团东小学",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.69143670000005,
+        "y": 31.437023680000038
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 798,
+        "备选设施点序号": 798,
+        "纬度": 118.4856838,
+        "经度": 31.493999710000001,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "姑山小学",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.48568380000006,
+        "y": 31.493999710000026
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 802,
+        "备选设施点序号": 802,
+        "纬度": 118.6584398,
+        "经度": 31.41689341,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "塘南中心小学",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.65843980000011,
+        "y": 31.416893410000057
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 817,
+        "备选设施点序号": 817,
+        "纬度": 118.6529812,
+        "经度": 31.415326929999999,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "塘南天乐幼儿园",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.65298120000011,
+        "y": 31.415326930000049
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 818,
+        "备选设施点序号": 818,
+        "纬度": 118.65645720000001,
+        "经度": 31.413110669999998,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "童星幼儿园",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.65645720000009,
+        "y": 31.413110670000037
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 826,
+        "备选设施点序号": 826,
+        "纬度": 118.5002715,
+        "经度": 31.579320209999999,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "辅仁幼儿园",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.50027150000005,
+        "y": 31.579320210000049
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 839,
+        "备选设施点序号": 839,
+        "纬度": 118.79225030000001,
+        "经度": 31.428821039999999,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "永红幼儿园",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.79225030000009,
+        "y": 31.428821040000059
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 840,
+        "备选设施点序号": 840,
+        "纬度": 118.4431604,
+        "经度": 31.61827139,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "月月幼儿园(003乡道)",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.44316040000001,
+        "y": 31.618271390000075
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 475,
+        "备选设施点序号": 378,
+        "纬度": 118.46142469999999,
+        "经度": 31.564525880000001,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 117689.94620000001,
+        "Field7": 1401.7846520000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.46142470000007,
+        "y": 31.564525880000076
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 498,
+        "备选设施点序号": 401,
+        "纬度": 118.4965071,
+        "经度": 31.567411060000001,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 22840.399850000002,
+        "Field7": 604.05226249999998,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.49650710000003,
+        "y": 31.56741106000004
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 732,
+        "备选设施点序号": 675,
+        "纬度": 118.5467965,
+        "经度": 31.55943096,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 94410.474390000003,
+        "Field7": 1279.672505,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.54679650000003,
+        "y": 31.559430960000043
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 746,
+        "备选设施点序号": 689,
+        "纬度": 118.4762478,
+        "经度": 31.598626889999998,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 220716.9596,
+        "Field7": 1980.5218319999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.47624780000001,
+        "y": 31.598626890000048
+      }
+    },
+    {
+      "attributes": {
+        "OBJECTID": 769,
+        "备选设施点序号": 712,
+        "纬度": 118.4978545,
+        "经度": 31.55163649,
+        "土地权重": 3,
+        "Field5": 3,
+        "Field6": 30457.97623,
+        "Field7": 702.07958159999998,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      },
+      "geometry": {
+        "x": 118.49785450000002,
+        "y": 31.551636490000078
+      }
+    }
+  ]
+}

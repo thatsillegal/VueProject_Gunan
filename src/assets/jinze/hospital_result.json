@@ -1,0 +1,3574 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": { "name": "EPSG:4326" }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 1,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.8153506000001, 31.396022990000063 ]
+      },
+      "properties": {
+        "OBJECTID": 1,
+        "备选设施点序号": 5,
+        "纬度": 118.8153506,
+        "经度": 31.396022989999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 27271.561000000002,
+        "Field7": 1144.3047790000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 2,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.7881450000001, 31.440312270000049 ]
+      },
+      "properties": {
+        "OBJECTID": 2,
+        "备选设施点序号": 7,
+        "纬度": 118.788145,
+        "经度": 31.44031227,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 253715.1654,
+        "Field7": 3683.120058,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 3,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.7758735000001, 31.464395810000042 ]
+      },
+      "properties": {
+        "OBJECTID": 3,
+        "备选设施点序号": 8,
+        "纬度": 118.7758735,
+        "经度": 31.464395809999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 312476.05570000003,
+        "Field7": 3312.4672329999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 4,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.71569240000008, 31.389047380000079 ]
+      },
+      "properties": {
+        "OBJECTID": 4,
+        "备选设施点序号": 11,
+        "纬度": 118.71569239999999,
+        "经度": 31.389047380000001,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 15453.674209999999,
+        "Field7": 645.04316180000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 5,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.71614510000006, 31.41469273000007 ]
+      },
+      "properties": {
+        "OBJECTID": 5,
+        "备选设施点序号": 12,
+        "纬度": 118.71614510000001,
+        "经度": 31.414692729999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 98263.562220000007,
+        "Field7": 3216.4679679999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 6,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.68864070000006, 31.487948410000058 ]
+      },
+      "properties": {
+        "OBJECTID": 6,
+        "备选设施点序号": 17,
+        "纬度": 118.68864069999999,
+        "经度": 31.487948410000001,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 102352.7503,
+        "Field7": 2792.4597640000002,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 7,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.6761987000001, 31.327379900000039 ]
+      },
+      "properties": {
+        "OBJECTID": 7,
+        "备选设施点序号": 20,
+        "纬度": 118.6761987,
+        "经度": 31.3273799,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 45606.599690000003,
+        "Field7": 1439.6270320000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 8,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.68452390000004, 31.342222680000077 ]
+      },
+      "properties": {
+        "OBJECTID": 8,
+        "备选设施点序号": 24,
+        "纬度": 118.6845239,
+        "经度": 31.342222679999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 32136.37343,
+        "Field7": 933.22626969999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 9,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.67922180000005, 31.402279650000025 ]
+      },
+      "properties": {
+        "OBJECTID": 9,
+        "备选设施点序号": 31,
+        "纬度": 118.67922179999999,
+        "经度": 31.402279650000001,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 93672.626120000001,
+        "Field7": 2651.2989240000002,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 10,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.69383230000005, 31.436481620000052 ]
+      },
+      "properties": {
+        "OBJECTID": 10,
+        "备选设施点序号": 33,
+        "纬度": 118.6938323,
+        "经度": 31.436481619999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 62050.190970000003,
+        "Field7": 1476.882167,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 11,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.67684320000001, 31.522579260000043 ]
+      },
+      "properties": {
+        "OBJECTID": 11,
+        "备选设施点序号": 37,
+        "纬度": 118.67684319999999,
+        "经度": 31.522579260000001,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 8416.4375949999994,
+        "Field7": 595.26101129999995,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 12,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.6524515000001, 31.479374240000027 ]
+      },
+      "properties": {
+        "OBJECTID": 12,
+        "备选设施点序号": 39,
+        "纬度": 118.6524515,
+        "经度": 31.479374239999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 19832.153590000002,
+        "Field7": 1006.258364,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 13,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.65573840000002, 31.459406830000034 ]
+      },
+      "properties": {
+        "OBJECTID": 13,
+        "备选设施点序号": 41,
+        "纬度": 118.6557384,
+        "经度": 31.459406829999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 17750.511259999999,
+        "Field7": 1403.0985599999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 14,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.65320630000008, 31.443584960000067 ]
+      },
+      "properties": {
+        "OBJECTID": 14,
+        "备选设施点序号": 42,
+        "纬度": 118.65320629999999,
+        "经度": 31.443584959999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 95017.977530000004,
+        "Field7": 2523.4418690000002,
+        "Field8": "当涂县大陇乡塘桥小学",
+        "Field9": 118.65422289999999,
+        "Field10": 31.44461961,
+        "Field11": "安徽省马鞍山市当涂县太陇乡塘桥小学(011县道)",
+        "Field12": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 15,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.64113760000009, 31.410818610000035 ]
+      },
+      "properties": {
+        "OBJECTID": 15,
+        "备选设施点序号": 43,
+        "纬度": 118.64113759999999,
+        "经度": 31.41081861,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 88417.063840000003,
+        "Field7": 1766.9264599999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 16,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.63486510000007, 31.383376500000054 ]
+      },
+      "properties": {
+        "OBJECTID": 16,
+        "备选设施点序号": 46,
+        "纬度": 118.6348651,
+        "经度": 31.383376500000001,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 64828.572330000003,
+        "Field7": 1467.886027,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 17,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.65542210000001, 31.377941390000046 ]
+      },
+      "properties": {
+        "OBJECTID": 17,
+        "备选设施点序号": 50,
+        "纬度": 118.6554221,
+        "经度": 31.37794139,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 56578.001479999999,
+        "Field7": 1653.827738,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 18,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.64219660000003, 31.30966071000006 ]
+      },
+      "properties": {
+        "OBJECTID": 18,
+        "备选设施点序号": 59,
+        "纬度": 118.64219660000001,
+        "经度": 31.309660709999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 30182.688910000001,
+        "Field7": 835.72305459999995,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 19,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.59630270000002, 31.334191510000039 ]
+      },
+      "properties": {
+        "OBJECTID": 19,
+        "备选设施点序号": 66,
+        "纬度": 118.5963027,
+        "经度": 31.33419151,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 23007.39602,
+        "Field7": 1057.1841899999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 20,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.62620420000007, 31.348980170000061 ]
+      },
+      "properties": {
+        "OBJECTID": 20,
+        "备选设施点序号": 69,
+        "纬度": 118.6262042,
+        "经度": 31.348980170000001,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 102428.8407,
+        "Field7": 3015.124217,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 21,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.59246060000009, 31.375172330000055 ]
+      },
+      "properties": {
+        "OBJECTID": 21,
+        "备选设施点序号": 74,
+        "纬度": 118.5924606,
+        "经度": 31.375172330000002,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 12911.566349999999,
+        "Field7": 626.72156719999998,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 22,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.59541310000009, 31.374811050000062 ]
+      },
+      "properties": {
+        "OBJECTID": 22,
+        "备选设施点序号": 75,
+        "纬度": 118.5954131,
+        "经度": 31.374811050000002,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 19653.31596,
+        "Field7": 706.06296650000002,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 23,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.60257890000003, 31.41220418000006 ]
+      },
+      "properties": {
+        "OBJECTID": 23,
+        "备选设施点序号": 78,
+        "纬度": 118.6025789,
+        "经度": 31.41220418,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 70346.550289999999,
+        "Field7": 1542.40302,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.62492140000006, 31.516068740000037 ]
+      },
+      "properties": {
+        "OBJECTID": 24,
+        "备选设施点序号": 85,
+        "纬度": 118.62492140000001,
+        "经度": 31.516068740000001,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 135863.08840000001,
+        "Field7": 1626.6354429999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 25,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.6218626000001, 31.559837440000024 ]
+      },
+      "properties": {
+        "OBJECTID": 25,
+        "备选设施点序号": 87,
+        "纬度": 118.6218626,
+        "经度": 31.559837439999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 74035.150519999996,
+        "Field7": 1423.8450210000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 26,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.55341270000008, 31.496781910000038 ]
+      },
+      "properties": {
+        "OBJECTID": 26,
+        "备选设施点序号": 88,
+        "纬度": 118.5534127,
+        "经度": 31.496781909999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 13169.07511,
+        "Field7": 1287.399633,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 27,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.55276860000004, 31.49903345000007 ]
+      },
+      "properties": {
+        "OBJECTID": 27,
+        "备选设施点序号": 89,
+        "纬度": 118.55276859999999,
+        "经度": 31.499033449999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 17939.44124,
+        "Field7": 901.84454670000002,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 28,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.55738980000001, 31.540380320000054 ]
+      },
+      "properties": {
+        "OBJECTID": 28,
+        "备选设施点序号": 90,
+        "纬度": 118.5573898,
+        "经度": 31.540380320000001,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 52869.31336,
+        "Field7": 1032.036341,
+        "Field8": "姑孰镇寺山小学",
+        "Field9": 118.5583913,
+        "Field10": 31.54133281,
+        "Field11": "山水大道与藏五路交叉口北50米",
+        "Field12": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 29,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.53529700000001, 31.521835200000055 ]
+      },
+      "properties": {
+        "OBJECTID": 29,
+        "备选设施点序号": 92,
+        "纬度": 118.535297,
+        "经度": 31.521835200000002,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 80055.272970000005,
+        "Field7": 1702.5854440000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 30,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.49194540000008, 31.484314890000064 ]
+      },
+      "properties": {
+        "OBJECTID": 30,
+        "备选设施点序号": 95,
+        "纬度": 118.49194540000001,
+        "经度": 31.48431489,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 174998.67000000001,
+        "Field7": 3777.18208,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 31,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.54513010000005, 31.47477807000007 ]
+      },
+      "properties": {
+        "OBJECTID": 31,
+        "备选设施点序号": 99,
+        "纬度": 118.54513009999999,
+        "经度": 31.474778069999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 25723.966690000001,
+        "Field7": 809.58217960000002,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 32,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.60359580000011, 31.543332010000029 ]
+      },
+      "properties": {
+        "OBJECTID": 32,
+        "备选设施点序号": 108,
+        "纬度": 118.60359579999999,
+        "经度": 31.54333201,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 9934.7873540000001,
+        "Field7": 419.50682490000003,
+        "Field8": "当涂县关马中心学校",
+        "Field9": 118.6032103,
+        "Field10": 31.543787940000001,
+        "Field11": "安徽省马鞍山市当涂县后岗路关马中心学校",
+        "Field12": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 33,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.57567800000004, 31.473922160000029 ]
+      },
+      "properties": {
+        "OBJECTID": 33,
+        "备选设施点序号": 112,
+        "纬度": 118.575678,
+        "经度": 31.473922160000001,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 79619.34345,
+        "Field7": 1715.335591,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 34,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.51946200000009, 31.417730300000073 ]
+      },
+      "properties": {
+        "OBJECTID": 34,
+        "备选设施点序号": 116,
+        "纬度": 118.519462,
+        "经度": 31.417730299999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 45132.460209999997,
+        "Field7": 1046.1094109999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 35,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.53231320000009, 31.43715866000008 ]
+      },
+      "properties": {
+        "OBJECTID": 35,
+        "备选设施点序号": 119,
+        "纬度": 118.5323132,
+        "经度": 31.437158660000001,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 32447.11435,
+        "Field7": 2336.3210949999998,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 36,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.54839820000007, 31.359641660000079 ]
+      },
+      "properties": {
+        "OBJECTID": 36,
+        "备选设施点序号": 129,
+        "纬度": 118.54839819999999,
+        "经度": 31.359641660000001,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 103873.99589999999,
+        "Field7": 3650.2790479999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 37,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.56044770000005, 31.442324140000039 ]
+      },
+      "properties": {
+        "OBJECTID": 37,
+        "备选设施点序号": 135,
+        "纬度": 118.5604477,
+        "经度": 31.44232414,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 59065.442940000001,
+        "Field7": 1605.3053010000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 38,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.42649030000007, 31.579944490000059 ]
+      },
+      "properties": {
+        "OBJECTID": 38,
+        "备选设施点序号": 142,
+        "纬度": 118.4264903,
+        "经度": 31.579944489999999,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 74490.837759999995,
+        "Field7": 2096.620876,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 39,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.43043640000008, 31.632907700000032 ]
+      },
+      "properties": {
+        "OBJECTID": 39,
+        "备选设施点序号": 143,
+        "纬度": 118.4304364,
+        "经度": 31.632907700000001,
+        "土地权重": 1,
+        "Field5": 1,
+        "Field6": 81265.028959999996,
+        "Field7": 1134.4703930000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 40,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.54067500000008, 31.392076520000046 ]
+      },
+      "properties": {
+        "OBJECTID": 40,
+        "备选设施点序号": 145,
+        "纬度": 118.54067499999999,
+        "经度": 31.39207652,
+        "土地权重": 1,
+        "Field5": 4,
+        "Field6": 63669.357329999999,
+        "Field7": 1034.4592600000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 41,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.44971260000011, 31.616117870000039 ]
+      },
+      "properties": {
+        "OBJECTID": 41,
+        "备选设施点序号": 150,
+        "纬度": 118.4497126,
+        "经度": 31.61611787,
+        "土地权重": 1,
+        "Field5": 2,
+        "Field6": 138852.0888,
+        "Field7": 1614.491225,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 42,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.59891100000004, 31.440561430000059 ]
+      },
+      "properties": {
+        "OBJECTID": 42,
+        "备选设施点序号": 151,
+        "纬度": 118.598911,
+        "经度": 31.440561429999999,
+        "土地权重": 1,
+        "Field5": 2,
+        "Field6": 3509665.2050000001,
+        "Field7": 7378.630564,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 43,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.57497450000005, 31.332287520000079 ]
+      },
+      "properties": {
+        "OBJECTID": 43,
+        "备选设施点序号": 154,
+        "纬度": 118.5749745,
+        "经度": 31.332287520000001,
+        "土地权重": 1,
+        "Field5": 2,
+        "Field6": 2846341.8569999998,
+        "Field7": 7735.0071239999997,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 44,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.58444430000009, 31.29745132000005 ]
+      },
+      "properties": {
+        "OBJECTID": 44,
+        "备选设施点序号": 167,
+        "纬度": 118.5844443,
+        "经度": 31.29745132,
+        "土地权重": 1,
+        "Field5": 2,
+        "Field6": 149003.70809999999,
+        "Field7": 1596.9520199999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 45,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.59751790000007, 31.505397970000047 ]
+      },
+      "properties": {
+        "OBJECTID": 45,
+        "备选设施点序号": 169,
+        "纬度": 118.5975179,
+        "经度": 31.505397970000001,
+        "土地权重": 1,
+        "Field5": 2,
+        "Field6": 1154346.946,
+        "Field7": 9704.8454129999991,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 46,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.50969390000012, 31.526763930000072 ]
+      },
+      "properties": {
+        "OBJECTID": 46,
+        "备选设施点序号": 178,
+        "纬度": 118.5096939,
+        "经度": 31.526763930000001,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 79180.869059999997,
+        "Field7": 1192.011745,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 47,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.55731810000009, 31.565588920000039 ]
+      },
+      "properties": {
+        "OBJECTID": 47,
+        "备选设施点序号": 180,
+        "纬度": 118.5573181,
+        "经度": 31.56558892,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 56684.112939999999,
+        "Field7": 1071.851664,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 48,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.4387038000001, 31.537093920000075 ]
+      },
+      "properties": {
+        "OBJECTID": 48,
+        "备选设施点序号": 185,
+        "纬度": 118.4387038,
+        "经度": 31.53709392,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 103493.0079,
+        "Field7": 1577.5551250000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 49,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.45289770000011, 31.515392200000065 ]
+      },
+      "properties": {
+        "OBJECTID": 49,
+        "备选设施点序号": 202,
+        "纬度": 118.45289769999999,
+        "经度": 31.515392200000001,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 14659.03487,
+        "Field7": 563.65196800000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 50,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.49081820000004, 31.532835490000025 ]
+      },
+      "properties": {
+        "OBJECTID": 50,
+        "备选设施点序号": 204,
+        "纬度": 118.49081820000001,
+        "经度": 31.53283549,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 10072.256890000001,
+        "Field7": 402.51773379999997,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 51,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.46888290000004, 31.583335820000059 ]
+      },
+      "properties": {
+        "OBJECTID": 51,
+        "备选设施点序号": 309,
+        "纬度": 118.4688829,
+        "经度": 31.583335819999999,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 97751.195219999994,
+        "Field7": 1789.850173,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 52,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.61102820000008, 31.567416760000071 ]
+      },
+      "properties": {
+        "OBJECTID": 52,
+        "备选设施点序号": 313,
+        "纬度": 118.61102820000001,
+        "经度": 31.56741676,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 33367.13078,
+        "Field7": 841.34233610000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 53,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.59728690000009, 31.566372410000042 ]
+      },
+      "properties": {
+        "OBJECTID": 53,
+        "备选设施点序号": 386,
+        "纬度": 118.5972869,
+        "经度": 31.56637241,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 117517.71309999999,
+        "Field7": 1486.007873,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 54,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.48209420000001, 31.558841470000061 ]
+      },
+      "properties": {
+        "OBJECTID": 54,
+        "备选设施点序号": 397,
+        "纬度": 118.48209420000001,
+        "经度": 31.558841470000001,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 13702.022660000001,
+        "Field7": 473.4750679,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 55,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.48489810000001, 31.554050130000064 ]
+      },
+      "properties": {
+        "OBJECTID": 55,
+        "备选设施点序号": 474,
+        "纬度": 118.4848981,
+        "经度": 31.55405013,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 6256.6898380000002,
+        "Field7": 377.10842459999998,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 56,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.53380180000011, 31.552045550000059 ]
+      },
+      "properties": {
+        "OBJECTID": 56,
+        "备选设施点序号": 486,
+        "纬度": 118.53380180000001,
+        "经度": 31.552045549999999,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 43286.45809,
+        "Field7": 950.75358410000001,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 57,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.50574470000004, 31.555507460000058 ]
+      },
+      "properties": {
+        "OBJECTID": 57,
+        "备选设施点序号": 487,
+        "纬度": 118.50574469999999,
+        "经度": 31.555507460000001,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 38890.444389999997,
+        "Field7": 773.73422679999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 58,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.50224230000003, 31.551112060000037 ]
+      },
+      "properties": {
+        "OBJECTID": 58,
+        "备选设施点序号": 513,
+        "纬度": 118.50224230000001,
+        "经度": 31.551112060000001,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 44254.391960000001,
+        "Field7": 882.48779449999995,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 59,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.48657960000003, 31.569649910000066 ]
+      },
+      "properties": {
+        "OBJECTID": 59,
+        "备选设施点序号": 533,
+        "纬度": 118.4865796,
+        "经度": 31.569649909999999,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 82847.466839999994,
+        "Field7": 1230.55468,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 60,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.48665640000002, 31.581068600000037 ]
+      },
+      "properties": {
+        "OBJECTID": 60,
+        "备选设施点序号": 562,
+        "纬度": 118.4866564,
+        "经度": 31.581068599999998,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 18554.795190000001,
+        "Field7": 612.34519820000003,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 61,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.44968470000003, 31.513708800000074 ]
+      },
+      "properties": {
+        "OBJECTID": 61,
+        "备选设施点序号": 567,
+        "纬度": 118.44968470000001,
+        "经度": 31.5137088,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 55684.133399999999,
+        "Field7": 938.49327400000004,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 62,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.45780150000007, 31.523090950000039 ]
+      },
+      "properties": {
+        "OBJECTID": 62,
+        "备选设施点序号": 631,
+        "纬度": 118.4578015,
+        "经度": 31.52309095,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 157170.86309999999,
+        "Field7": 1809.92229,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 63,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.50928320000003, 31.580097270000067 ]
+      },
+      "properties": {
+        "OBJECTID": 63,
+        "备选设施点序号": 707,
+        "纬度": 118.5092832,
+        "经度": 31.58009727,
+        "土地权重": 1,
+        "Field5": 3,
+        "Field6": 11227.44976,
+        "Field7": 428.50825789999999,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 64,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.70733840000003, 31.434102770000038 ]
+      },
+      "properties": {
+        "OBJECTID": 64,
+        "备选设施点序号": 733,
+        "纬度": 118.7073384,
+        "经度": 31.434102769999999,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "大陇镇卫生院",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 65,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.47560340000007, 31.51450697000007 ]
+      },
+      "properties": {
+        "OBJECTID": 65,
+        "备选设施点序号": 737,
+        "纬度": 118.4756034,
+        "经度": 31.514506969999999,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "太白中心卫生院",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 67,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.43532200000004, 31.59949959000005 ]
+      },
+      "properties": {
+        "OBJECTID": 67,
+        "备选设施点序号": 739,
+        "纬度": 118.435322,
+        "经度": 31.599499590000001,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "江心乡卫生院",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 68,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.59409710000011, 31.509375660000046 ]
+      },
+      "properties": {
+        "OBJECTID": 68,
+        "备选设施点序号": 740,
+        "纬度": 118.5940971,
+        "经度": 31.50937566,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "护河中心卫生院",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 69,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.78136570000004, 31.437703230000068 ]
+      },
+      "properties": {
+        "OBJECTID": 69,
+        "备选设施点序号": 744,
+        "纬度": 118.78136569999999,
+        "经度": 31.43770323,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "湖阳医院",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 71,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.45313720000001, 31.433614430000034 ]
+      },
+      "properties": {
+        "OBJECTID": 71,
+        "备选设施点序号": 748,
+        "纬度": 118.4531372,
+        "经度": 31.433614429999999,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "年陡乡卫生院",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 72,
+      "geometry": {
+        "type": "Point",
+        "coordinates": [ 118.51672600000006, 31.42661411000006 ]
+      },
+      "properties": {
+        "OBJECTID": 72,
+        "备选设施点序号": 753,
+        "纬度": 118.51672600000001,
+        "经度": 31.426614109999999,
+        "土地权重": 3,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": "查湾卫生院",
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 75,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 75,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 76,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 76,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 77,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 77,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 78,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 78,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 79,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 79,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 80,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 80,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 81,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 81,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 82,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 82,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 83,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 83,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 84,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 84,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 85,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 85,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 86,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 86,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 87,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 87,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 88,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 88,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 89,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 89,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 90,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 90,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 91,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 91,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 92,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 92,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 93,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 93,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 94,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 94,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 95,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 95,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 96,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 96,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 97,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 97,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 98,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 98,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 99,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 99,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 100,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 100,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 101,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 101,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 102,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 102,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 103,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 103,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 104,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 104,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 105,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 105,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 106,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 106,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 107,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 107,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 108,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 108,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 109,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 109,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 110,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 110,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 111,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 111,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 112,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 112,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 113,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 113,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 114,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 114,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 115,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 115,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 116,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 116,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 117,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 117,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 118,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 118,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 119,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 119,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 120,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 120,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 121,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 121,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 122,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 122,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 123,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 123,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 124,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 124,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 125,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 125,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 126,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 126,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 127,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 127,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 128,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 128,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 129,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 129,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 130,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 130,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 131,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 131,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 132,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 132,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 133,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 133,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 134,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 134,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 135,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 135,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 136,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 136,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 137,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 137,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 138,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 138,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 139,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 139,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 140,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 140,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 141,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 141,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 142,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 142,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 143,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 143,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 144,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 144,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 145,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 145,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 146,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 146,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 147,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 147,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 148,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 148,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 149,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 149,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 150,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 150,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 151,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 151,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 152,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 152,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 153,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 153,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 154,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 154,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 155,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 155,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 156,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 156,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 157,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 157,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 158,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 158,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 159,
+      "geometry": {
+        "type": "Point",
+        "coordinates": []
+      },
+      "properties": {
+        "OBJECTID": 159,
+        "备选设施点序号": null,
+        "纬度": null,
+        "经度": null,
+        "土地权重": null,
+        "Field5": null,
+        "Field6": null,
+        "Field7": null,
+        "Field8": null,
+        "Field9": null,
+        "Field10": null,
+        "Field11": null,
+        "Field12": null
+      }
+    }
+  ]
+}

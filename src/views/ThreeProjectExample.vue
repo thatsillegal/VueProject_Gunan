@@ -1,6 +1,7 @@
 <template>
   <div class="threeproject">
         <div id="three-div"></div>
+        
   </div>
 </template>
 
@@ -42,9 +43,9 @@ export default {
     window.addEventListener("resize", onWindowResize, false);
     function onWindowResize() {
       const width  = (document.querySelector("#three-div").clientWidth);
-      const height2sub = document.querySelector("#app-bar").clientHeight + document.querySelector("#labaaafooter").clientHeight;
+      const height2sub = document.querySelector("#app-bar").clientHeight
       const height = (window.innerHeight - height2sub);
-      that.renderer.setSize(width, height, false);
+      that.renderer.setSize(width, height, true);
       const canvas = that.renderer.domElement;
       that.camera.aspect = canvas.clientWidth / canvas.clientHeight;
       that.camera.updateProjectionMatrix();

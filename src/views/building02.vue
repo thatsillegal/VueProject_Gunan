@@ -118,7 +118,7 @@ export default {
     function onWindowResize() {
       const width  = document.querySelector("#canvas").clientWidth;
       const height = window.innerHeight -document.querySelector("#app-bar").clientHeight;
-      that.renderer.setSize(width, height, false);
+      that.renderer.setSize(width, height, true);
       const canvas = that.renderer.domElement;
       that.camera.aspect = canvas.clientWidth / canvas.clientHeight;
       that.camera.updateProjectionMatrix();
