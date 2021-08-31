@@ -12,6 +12,10 @@ import edu from '../assets/jinze/edu_result.json';
 import hos from '../assets/jinze/hospital_result.json';
 import river from '../assets/jinze/river_clip.json';
 import road from '../assets/jinze/road_clip.json';
+import edu_path from '../assets/jinze/edu_routes.json';
+import hos_path from '../assets/jinze/hospital_routes.json'
+
+
 
 export default {
   data(){
@@ -22,6 +26,8 @@ export default {
       hos:hos,
       river:river,
       road:road,
+      edu_path:edu_path,
+      hos_path:hos_path,
 
       //THREE Space: Three.js 需要定义的基本要素(属性)
       renderer: null, //这个必须放这里，不然canvas尺寸计算会出问题
@@ -125,12 +131,31 @@ export default {
 
 
 //******************* */
+const edu__material = new THREE.LineBasicMaterial( { color: 0xff8800} );
+this.edu_path.features.forEach(datset => {
+	const points = [];
+	const ps= datset.geometry.paths[0]
+	ps.forEach(p => points.push(new THREE.Vector3(  sc*(p[0] -cx), sc*(p[1] - cy), z )))
+	const geometry = new THREE.BufferGeometry().setFromPoints( points );
+	const line = new THREE.Line( geometry, edu__material );
+	this.scene.add( line );
+})
+
+const hos__material =  new THREE.LineBasicMaterial( { color: 0x00ffff } );
+this.hos_path.features.forEach(datset => {
+	const points = [];
+	const ps= datset.geometry.paths[0]
+	ps.forEach(p => points.push(new THREE.Vector3(  sc*(p[0] -cx), sc*(p[1] - cy), z )))
+	const geometry = new THREE.BufferGeometry().setFromPoints( points );
+	const line = new THREE.Line( geometry, hos__material );
+	this.scene.add( line );
+})
+//********* */
       cw=0.5
       cubegeo = new THREE.BoxGeometry( cw, cw, cw);
-      cubemat = new THREE.LineBasicMaterial( { color: 0xff8800 } );
       this.edu.features.forEach(item => {
         const p= item.geometry
-        let cube= new THREE.Mesh ( cubegeo, cubemat);
+        let cube= new THREE.Mesh ( cubegeo, edu__material);
         cube.position.x = sc*(p.x -cx);
         cube.position.y = sc*(p.y - cy);
         cube.position.z = z ;
@@ -139,10 +164,9 @@ export default {
 
 
 //******************* */
-      cubemat = new THREE.LineBasicMaterial( { color: 0x00ffff } );
       this.hos.features.forEach(item => {
         const p= item.geometry.coordinates
-        let cube= new THREE.Mesh ( cubegeo, cubemat);
+        let cube= new THREE.Mesh ( cubegeo, hos__material);
         cube.position.x = sc*(p[0] -cx);
         cube.position.y = sc*(p[1] - cy);
         cube.position.z = z ;

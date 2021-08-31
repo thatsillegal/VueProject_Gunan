@@ -3,13 +3,13 @@
       <div class="threeproject" id="canvas"></div>
 
     <v-card class="mx-auto popupcard">
-      <v-btn
+      <!-- <v-btn
           x-small
           @click="show = !show"
           style="position:absolute ; left:-30px"
         >
           <v-icon>{{ show ? 'mdi-chevron-right' : 'mdi-chevron-left' }}</v-icon>
-      </v-btn>
+      </v-btn> -->
 
       <v-card
       width="250"
@@ -46,6 +46,7 @@
       <v-container fluid >
         <v-row class="pl-3 pb-3">
           <v-checkbox hide-details label="活力图" :input-value="hotmapOn" @click="isHotmapOn()"></v-checkbox>
+          <v-checkbox hide-details label="温度" :input-value="UTCIOn" @click="isUTCIOn()"></v-checkbox>
         </v-row>
       </v-container>
 
@@ -91,6 +92,7 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import buildingjson from '@/assets/buildings0829.json';
 import pointsjson from '@/assets/points.json'
 import _hotimg from '@/assets/hot2.jpg'
+import _UTCI from '@/assets/UTCI2.jpg'
 import {Building, PublicSpace} from'@/js/Building.js'
 import {OBJLoader} from 'three/examples/jsm/loaders/OBJLoader'
 // import {TextureLoader} from 'three/examples/jsm/loaders/TxtureLoader'
@@ -108,6 +110,7 @@ export default {
 
       //img
       hotimg: _hotimg,
+      UTCI: _UTCI,
 
       //template
       toggle_exclusive: undefined,
@@ -117,6 +120,7 @@ export default {
 
       layername:null,
       hotmapOn:false,
+      UTCIOn:false,
       houselink:"",
       islinkOn:true,
 
@@ -158,7 +162,8 @@ export default {
       groups:null, //事实证明，在这里面初始化 比如写成 groups:[] 屁用没有，还得在后面初始化
       allbuildings: null,
 
-      hotimg_pl:null
+      hotimg_pl:null,
+      UTCI_pl:null
     }
   },
 
@@ -190,6 +195,15 @@ export default {
         this.scene.add(this.hotimg_pl)
       }else{
         this.scene.remove(this.hotimg_pl)
+      }
+    },
+
+    isUTCIOn(){
+      this.UTCIOn = !this.UTCIOn
+      if(this.UTCIOn){
+        this.scene.add(this.UTCI_pl)
+      }else{
+        this.scene.remove(this.UTCI_pl)
       }
     },
 
@@ -378,12 +392,19 @@ export default {
 
    //添加活力图
         let imgloader = new THREE.TextureLoader();
+
         let hottexture = imgloader.load(this.hotimg)
         let hotmaterial = new THREE.MeshBasicMaterial({map:hottexture,transparent:true,opacity:0.8})
         let hotimg_geo = new THREE.PlaneGeometry(1000,1000,1,1)
         this.hotimg_pl = new THREE.Mesh(hotimg_geo,hotmaterial)
         this.hotimg_pl.translateZ(0.5).translateY(50)
 
+        let UTCItexture = imgloader.load(this.UTCI)
+        let UTCImaterial = new THREE.MeshBasicMaterial({map:UTCItexture,transparent:true,opacity:0.8})
+        let UTCI_geo = new THREE.PlaneGeometry(1000,1000,1,1)
+        this.UTCI_pl = new THREE.Mesh(UTCI_geo,UTCImaterial)
+        this.UTCI_pl.scale.set(0.92,0.92,1)
+        this.UTCI_pl.translateZ(0.5).translateY(42).translateX(-3)
 
 
       // loader.load('/static/rhino.obj',
@@ -433,7 +454,7 @@ export default {
       }
       
 
-      console.log(this.layers)
+      // console.log(this.layers)
 
       let data =this.buildingsInfo[1]
 
@@ -485,19 +506,19 @@ export default {
             
           }
         }
-        console.log(this.allbuildings)
+        // console.log(this.allbuildings)
 
 
         /**监听鼠标事件**/
       this.raycaster = new THREE.Raycaster();
       this.mouse = new THREE.Vector2();
       function onMousemove(event){
-        console.log("rectheight:" + event.clientY)
+        // console.log("rectheight:" + event.clientY)
         event.preventDefault();
         let mousepos = getMousePos(canvas,event);
         that.mouse.setX(mousepos.x*2-1);
         that.mouse.setY(-mousepos.y*2+1); //这个地方没有转换正负号把我坑惨了
-        console.log(that.mouse.x+","+that.mouse.y+","+mousepos.y)
+        // console.log(that.mouse.x+","+that.mouse.y+","+mousepos.y)
 
         that.raycaster.setFromCamera(that.mouse,that.camera)
 
@@ -537,7 +558,7 @@ export default {
                   that.floor = that.INTERSECTED.floor
                   that.layername = that.INTERSECTED.layer
                   that.houseName = that.INTERSECTED.housename
-                  console.log(that.INTERSECTED.housename)
+                  // console.log(that.INTERSECTED.housename)
 
 
                   // if(that.INTERSECTED.housename == "null"){

@@ -3,10 +3,10 @@
         <v-app-bar app flat id="app-bar">
             <v-app-bar-nav-icon class="grey--text" @click="drawer = !drawer"></v-app-bar-nav-icon>
             <v-toolbar-title class="text-uppercase grey--text">
-                <span class="font-weight-bold">村镇社区</span>
+                <span class="font-weight-bold">村镇社区宜居单元</span>
                 <span class="font-weight-light">空间优化与设计</span>
                 
-                <span class="font-weight-light"> Spatial optimization and design of village communities</span>
+                <span class="font-weight-light"> Spatial optimization and design</span>
             </v-toolbar-title>
         <v-spacer></v-spacer>
         <v-btn text color="grey">
